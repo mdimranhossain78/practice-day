@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work-sans {
+  font-family: "work sans", sans-serif;
+  
+}
+
+.header-section{
+    background: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 808px;
+    
+}
+.header-content{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+ text-align: right;
+ margin-right: 230px;
+  
+      
+}
+.header-content h1{
+     width:525px;
+    font-size:65px;
+    font-weight: bold;
+    margin: 216px 0 24px;
+}
+.header-content p{
+    width: 494px;
+    color: #444343 ;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+ button{
+    padding: 20px 26px;
+    font-size: 20px;
+    font-weight: 600px;
+    background-color:#F15B22;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#parson{
+    padding-top: 130px;
+}
+.parson-container{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+
+.image{
+    max-width: 560px;
+    margin-left: 200px;
+}
+.content{
+    max-width:416px ;
+    padding-top: 190px;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    width: 288px;
+}
+.content p{
+color: #444343;
+line-height: 26px;
+font-size: 16px;
+margin-bottom: 30px;
+}
+.bont-tick p{
+margin-bottom: 7px;
+}
+.fa-check{
+    color: greenyellow;
+}
+/* plan section */
+#plan{
+    padding-top: 130px;
+}
+.plan-container{
+    width: 71%;
+    max-width: 1140px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.plan-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plan-box{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-box .plan-card img{
+    width: 93px;
+    margin-bottom: 24px;
+}
+.plan-box .plan-card h2{
+    font-size: 30px;
+    font-weight: bold;
+    color:#151414;
+    margin-bottom: 16px;
+}
+.plan-box .plan-card p{
+    font-size: 25px;
+    font-weight: 500px;
+    color:#737272;
+}
+/* watch section */
+#watch{
+    padding: 130px 0 ;
+}
+.watch-container{
+    background-image:url(./images/gradient2.png), url(./images/watch.png);
+    width: 71%;
+    max-width: 1140px;
+    height: 300px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin:0 auto;
+   position: relative;
+   
+   
+}
+.watch-content{
+    position: absolute;
+    width: 460px;
+    left: 65px;
+    
+}
+.watch-content h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 52px;
+    margin-bottom: 24px;
+
+}
+.watch-content .btn{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #F15B22;
+    border:none ;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 36px;
+}
+/* footer section */
+footer{
+    background: #151414;
+    padding: 130px 0;
+}
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+
+}
+.footer-container .info{
+    max-width: 485px;
+   
+}
+.footer-container .info h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    margin-bottom:16px ;
+}
+.footer-container .info p{
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 24px;
+
+}
+.footer-container .info #email{
+    margin-bottom: 16px;
+}
+.footer-container .info #phone{
+    margin-bottom: 32px;
+}
+.footer-container .icons a{
+    margin-right: 17px;
+    max-width: 47px;
+}
+.subscribe h4{
+    font-size: 25px;
+    font-weight: 600px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.subscribe input{
+    background-color: #151414;
+    padding: 21px;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+
